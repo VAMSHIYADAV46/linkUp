@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST IN DETAIL</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            background: -webkit-linear-gradient(#ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            background-clip: text; /* Fallback for non-WebKit browsers */
+            -webkit-text-fill-color: transparent; /* Transparent text to show gradient */
+            display: inline-block;
+        }
+
+
+
+        .post {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">LinkUp</div>
+
+    <h1>HERE IS YOUR POST IN DETAIL</h1>
+
+    <div class="post">
+        <p>Post ID: <%=post.id%></p>
+        <div class="username">USERNAME: @<%=post.username%></div><br>
+        <div class="content">CONTENT: <%=post.content%></div>
+    </div>
+
+    <button><a href="http://localhost:8080/posts">Back</a></button>
+
+</body>
+</html>

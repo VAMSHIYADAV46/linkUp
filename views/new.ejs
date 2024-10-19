@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            background: -webkit-linear-gradient(#ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            background-clip: text; /* Fallback for non-WebKit browsers */
+            -webkit-text-fill-color: transparent; /* Transparent text to show gradient */
+            display: inline-block;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 96%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #333;
+            border-radius: 6px;
+            background-color: #F9F9F9;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 96%;
+            padding: 12px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">LinkUp</div><br><br>
+
+    <form action="/posts" method="post">
+        <label for="username">USERNAME: </label>
+        <input type="text" name="username" id="username" placeholder="ENTER USERNAME" required>
+
+        <label for="content">CONTENT: </label>
+        <textarea name="content" id="content" placeholder="ENTER CONTENT" required></textarea>
+
+        <button type="submit">SUBMIT</button>
+    </form>
+
+</body>
+</html>

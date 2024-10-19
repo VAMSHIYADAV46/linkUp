@@ -1,0 +1,25 @@
+h1{
+    color: black;
+}
+
+.username{
+    
+    color: #789DBC;
+}
+
+.content{
+    color: red;
+}
+
+.post{
+    background-color: #E9EED9;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+button{
+    margin-left: 10px;
+}
