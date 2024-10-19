@@ -1,6 +1,4 @@
-Here’s an updated and simpler README file for your LinkUp project that highlights the key aspects of your development so far, without mentioning any features that haven't been implemented:
 
----
 
 # LinkUp
 
@@ -48,4 +46,4 @@ The primary focus of this project was learning and implementing **REST APIs** us
 
 ---
 
-This README reflects the current scope of your project, emphasizing REST APIs and simplicity.
+
