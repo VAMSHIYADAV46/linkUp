@@ -4,10 +4,10 @@
 
 ### *Simple Social Media Platform for Learning REST APIs with Node.js & Express*
 
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/yourusername/LinkUp?style=for-the-badge&color=blue)](https://github.com/yourusername/LinkUp)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/LinkUp?style=for-the-badge&color=yellow)](https://github.com/yourusername/LinkUp/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/yourusername/LinkUp?style=for-the-badge&color=green)](https://github.com/yourusername/LinkUp/commits)
-[![Issues](https://img.shields.io/github/issues/yourusername/LinkUp?style=for-the-badge&color=red)](https://github.com/yourusername/LinkUp/issues)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/VAMSHIYADAV46/LinkUp?style=for-the-badge&color=blue)](https://github.com/VAMSHIYADAV46/LinkUp)
+[![GitHub Stars](https://img.shields.io/github/stars/VAMSHIYADAV46/LinkUp?style=for-the-badge&color=yellow)](https://github.com/VAMSHIYADAV46/LinkUp/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/VAMSHIYADAV46/LinkUp?style=for-the-badge&color=green)](https://github.com/VAMSHIYADAV46/LinkUp/commits)
+[![Issues](https://img.shields.io/github/issues/VAMSHIYADAV46/LinkUp?style=for-the-badge&color=red)](https://github.com/VAMSHIYADAV46/LinkUp/issues)
 [![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)](LICENSE)
 
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
