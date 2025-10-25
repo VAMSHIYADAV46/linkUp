@@ -287,10 +287,10 @@ app.patch('/posts/:id', (req, res) => {
   res.redirect('/posts');
 });
 ```
-
+<!-- 
 ### **Screenshots**
 
-<table>
+<table> 
 <tr>
 <td width="50%">
 
@@ -320,7 +320,7 @@ app.patch('/posts/:id', (req, res) => {
 </td>
 </tr>
 </table>
-
+-->
 ---
 
 ## 📚 **Learning Outcomes**
