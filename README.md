@@ -201,8 +201,9 @@ content=Updated post content
 ### **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/LinkUp.git
-cd LinkUp
+git clone https://github.com/VAMSHIYADAV46/linkUp.git
+cd linkUp
+
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -418,8 +419,10 @@ We welcome contributions from learners and developers! Here's how you can help:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/LinkUp.git
-   cd LinkUp
+   
+   git clone https://github.com/VAMSHIYADAV46/linkUp.git
+   cd linkUp
+
    ```
 
 2. **Create Feature Branch**
