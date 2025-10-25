@@ -15,7 +15,8 @@
 [![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black)](https://ejs.co/)
 [![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://restfulapi.net/)
 
-[**🚀 Live Demo**](#) • [**📖 Documentation**](https://github.com/yourusername/LinkUp/wiki) • [**🐛 Report Bug**](https://github.com/yourusername/LinkUp/issues) • [**✨ Request Feature**](https://github.com/yourusername/LinkUp/issues)
+[**🚀 Live Demo**](https://linkup.onrender.com) • [**📖 Documentation**](https://github.com/VAMSHIYADAV46/LinkUp/wiki) • [**🐛 Report Bug**](https://github.com/VAMSHIYADAV46/LinkUp/issues) • [**✨ Request Feature**](https://github.com/VAMSHIYADAV46/LinkUp/issues)
+
 
 </div>
 
