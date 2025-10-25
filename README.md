@@ -495,17 +495,16 @@ in the Software without restriction...
 - Dev.to - For developer-focused platforms
 
 ---
-
 ## 👨‍💻 **Author**
 
 <div align="center">
 
-### **Your Name**
+### **Mekala Vamshi Yadav**
 *Full-Stack Developer & REST API Enthusiast*
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yourwebsite.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VAMSHIYADAV46)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vamshiyadav)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://vamshiyadav.com)
 
 </div>
 
@@ -513,10 +512,10 @@ in the Software without restriction...
 
 ## 🔗 **Project Links**
 
-- 🌐 **Repository**: [https://github.com/yourusername/LinkUp](https://github.com/yourusername/LinkUp)
-- 📖 **Documentation**: [https://github.com/yourusername/LinkUp/wiki](https://github.com/yourusername/LinkUp/wiki)
-- 🐛 **Issue Tracker**: [https://github.com/yourusername/LinkUp/issues](https://github.com/yourusername/LinkUp/issues)
-- 💬 **Discussions**: [https://github.com/yourusername/LinkUp/discussions](https://github.com/yourusername/LinkUp/discussions)
+- 🌐 **Repository**: [https://github.com/VAMSHIYADAV46/linkUp](https://github.com/VAMSHIYADAV46/linkUp)
+- 📖 **Documentation**: [https://github.com/VAMSHIYADAV46/linkUp/wiki](https://github.com/VAMSHIYADAV46/linkUp/wiki)
+- 🐛 **Issue Tracker**: [https://github.com/VAMSHIYADAV46/linkUp/issues](https://github.com/VAMSHIYADAV46/linkUp/issues)
+- 💬 **Discussions**: [https://github.com/VAMSHIYADAV46/linkUp/discussions](https://github.com/VAMSHIYADAV46/linkUp/discussions)
 - 📚 **Learning Resources**: [REST API Guide](https://restfulapi.net/)
 
 ---
@@ -525,7 +524,7 @@ in the Software without restriction...
 
 ### ⭐ **Star this repo if you find it helpful for learning!**
 
-<img src="https://img.shields.io/github/stars/yourusername/LinkUp?style=social" alt="GitHub stars">
+<img src="https://img.shields.io/github/stars/VAMSHIYADAV46/linkUp?style=social" alt="GitHub stars">
 
 **Built with ❤️ for Developers Learning REST APIs**
 
