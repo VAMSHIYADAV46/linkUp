@@ -46,7 +46,7 @@ posts =[
 ]
 
 app.get("/",(req,res)=>{
-    res.send("you hit home route")
+    res.render("home.ejs")
 })
 app.get("/posts",(req,res)=>{
     res.render("index.ejs",{posts})
