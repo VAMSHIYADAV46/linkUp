@@ -22,28 +22,28 @@ const port = 8080;
 
 
 
-posts =[
+posts = [
     {
         id: uuidv4(),
-        username:"vamshi",
-        content:"lets smash this web.........!"
+        username: "vamshi",
+        content: "Building something new today. Let’s make it worth it!"
     },
     {
         id: uuidv4(),
-        username:"rajesh",
-        content:"i love eating...!"
+        username: "rajesh",
+        content: "Good food. Good mood. That’s the rule."
     },
     {
         id: uuidv4(),
-        username:"ramesh",
-        content:"lets make this world better ........!"
+        username: "ramesh",
+        content: "Small efforts every day create big change. Keep going!"
     },
     {
         id: uuidv4(),
-        username:"ramu",
-        content:"lets work smatter.........!"
+        username: "ramu",
+        content: "Working smarter today. Productivity mode ON."
     },
-]
+];
 
 app.get("/",(req,res)=>{
     res.render("home.ejs")

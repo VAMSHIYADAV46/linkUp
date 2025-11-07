@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Post</title>
+
     <style>
         body {
             background-color: #F0F0F0;
@@ -15,7 +16,17 @@
             height: 100vh;
             margin: 0;
             padding: 20px;
-            flex-direction: column; /* Ensures logo is above the form */
+            flex-direction: column;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            background: -webkit-linear-gradient(#ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
         }
 
         form {
@@ -25,7 +36,6 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             width: 100%;
             max-width: 500px;
-            transition: box-shadow 0.3s ease;
         }
 
         h1 {
@@ -53,9 +63,9 @@
             color: #555;
             padding: 10px;
             background-color: #E9EED9;
-            border-radius: 6px; 
-            border: 1px solid #789DBC; 
-            margin: 10px 0; 
+            border-radius: 6px;
+            border: 1px solid #789DBC;
+            margin: 10px 0;
             white-space: pre-wrap;
         }
 
@@ -69,8 +79,8 @@
         textarea {
             width: 96%;
             padding: 12px;
-            margin-bottom: 20px;
             margin-left: 10px;
+            margin-bottom: 20px;
             border: 2px solid #789DBC;
             border-radius: 6px;
             background-color: #F9F9F9;
@@ -85,11 +95,15 @@
             border-color: #567799;
         }
 
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
         button {
             width: 100%;
             padding: 12px;
-            background-color: #007BFF;
-            color: white;
             border: none;
             border-radius: 6px;
             font-size: 16px;
@@ -98,22 +112,26 @@
             transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
-        button:hover {
+        .submit {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .submit:hover {
             background-color: #0056b3;
+        }
+
+        .back {
+            background-color: #333;
+            color: white;
+        }
+
+        .back:hover {
+            background-color: #555;
         }
 
         button:active {
             transform: scale(0.98);
-        }
-
-        .logo {
-            font-size: 36px;
-            font-weight: bold;
-            background: -webkit-linear-gradient(#ff7e5f, #feb47b);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 30px; /* Space between logo and form */
         }
     </style>
 </head>
@@ -123,6 +141,7 @@
 
     <form method="POST" action="/posts/<%=post.id%>?_method=PATCH">
         <h1>Update Post</h1>
+
         <div class="post">
             <p>Post ID: <%=post.id%></p>
             <div class="username">Username: @<%=post.username%></div>
@@ -132,7 +151,14 @@
         <label for="content">New Content:</label>
         <textarea name="content" id="content" placeholder="Enter new content" required></textarea>
 
-        <button type="submit">Submit</button>
+        <div class="btn-container">
+            <button type="submit" class="submit">Submit</button>
+
+            <button type="button" class="back" onclick="window.location.href='http://localhost:8080/posts'">
+                BACK
+            </button>
+        </div>
     </form>
+
 </body>
 </html>
