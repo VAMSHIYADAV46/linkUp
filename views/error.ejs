@@ -6,11 +6,11 @@
     <title>Error Page</title>
     <style>
         body {
-            background-color: #F0F0F0;
+            background: linear-gradient(135deg, #f0f0f0, #e8e8e8);
             font-family: 'Arial', sans-serif;
             color: #333;
             display: flex;
-            flex-direction: column; /* Ensures logo is above the content */
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
@@ -18,50 +18,71 @@
             text-align: center;
         }
 
-        h1 {
-            font-size: 48px;
-            color: #E74C3C; 
+        .logo {
+            font-size: 42px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 35px;
+            letter-spacing: 3px;
+            animation: fadeLogo 0.8s ease-in-out;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 50px 60px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            max-width: 450px;
+            animation: popUp 0.45s ease-in-out;
+        }
+
+        .icon {
+            font-size: 70px;
+            color: #E74C3C;
             margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 2px solid #E74C3C; 
-            padding-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #E74C3C;
+            margin-bottom: 10px;
         }
 
         p {
             font-size: 18px;
             color: #555;
             margin-bottom: 30px;
+            line-height: 1.5;
         }
 
         button {
-            padding: 12px 30px;
-            background-color: #333;
+            padding: 14px 35px;
+            background: linear-gradient(90deg, #333, #555);
             color: white;
             border: none;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius: 30px;
+            font-size: 17px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: 0.3s ease;
+            letter-spacing: 1px;
         }
 
         button:hover {
-            background-color: #555; 
+            opacity: 0.85;
+            transform: scale(1.05);
         }
 
-        a {
-            text-decoration: none;
-            color: white;
+        @keyframes popUp {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
         }
 
-        .logo {
-            font-size: 36px;
-            font-weight: bold;
-            background: -webkit-linear-gradient(#ff7e5f, #feb47b);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 30px; /* Space between logo and content */
+        @keyframes fadeLogo {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
@@ -69,10 +90,11 @@
 
     <div class="logo">LinkUp</div>
 
-    <div>
-        <h1>Page Not Found!</h1>
-        <p>Sorry, the page you are looking for does not exist.</p>
-        <button onclick="window.location.href='http://localhost:8080/posts'">Go to Home</button>
+    <div class="container">
+        <div class="icon">⚠️</div>
+        <h1>Page Not Found</h1>
+        <p>The page you are trying to reach is unavailable or may have been moved.</p>
+        <button onclick="window.location.href='http://localhost:8080/home'">Return Home</button>
     </div>
 
 </body>
